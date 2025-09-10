@@ -9,8 +9,8 @@ WebServer server(80);
 // Including header files
 #include "webSite.h"
 
-const char* ssid = "TP-LINK_306A";
-const char* password = "31071979";
+const char* ssid = "Your SSID";
+const char* password = "Password of your network";
 
 void ClearHalfDisplay(int column, int row);
 void handleSubmit();
